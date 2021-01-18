@@ -1,4 +1,4 @@
-class Divisions{
+class Ground{
     constructor(x,y,width,height){
         var options={
             isStatic:true
@@ -10,9 +10,9 @@ class Divisions{
     }
    display(){
        var pos=this.body.position;
-     
+
        rectMode(CENTER);
-       fill(196, 255, 233);
+       fill(241, 247, 212);
        rect(pos.x,pos.y,this.width,this.height);
    }
 }
